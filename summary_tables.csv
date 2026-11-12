@@ -1,0 +1,4 @@
+Architecture,Parameters,Mean HTER (%),SD (pp)
+Full attention,4313,13.915,0.458
+Lightweight bypass,2030,14.316,0.993
+Matched bypass,4322,14.495,0.598

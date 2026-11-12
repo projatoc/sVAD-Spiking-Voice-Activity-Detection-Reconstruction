@@ -1,0 +1,54 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local Python virtual environments
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded/extracted audio data and large dataset caches
+real_data/
+data/raw/
+data/downloads/
+data/cache/
+*.wav
+*.flac
+*.mp3
+*.tar
+*.tar.gz
+*.tgz
+
+# Model checkpoints and generated experiment artifacts
+# Preserve final selected checkpoints in a separately packaged submission/archive.
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Generated plots and temporary diagnostics
+plots/
+figures/generated/
+*.log
+
+# If using Git for results, commit curated summary CSV/JSON under results/.
+# Store manifest metadata in a separate tracked folder (e.g. manifests/),
+# with no actual audio files.

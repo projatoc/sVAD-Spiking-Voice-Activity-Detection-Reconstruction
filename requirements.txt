@@ -1,0 +1,9 @@
+# sVAD reconstruction — direct runtime dependencies.
+# These are compatibility minimums, NOT an exact snapshot of the original Mac environment.
+# For a fully reproducible experiment, lock the exact tested versions separately.
+# Install a CPU/MPS/CUDA-compatible PyTorch build for your system.
+
+torch>=2.2
+numpy>=1.26
+scipy>=1.11
+soundfile>=0.12
